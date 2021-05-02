@@ -121,7 +121,7 @@ public class UIPopupBarter : MonoBehaviour
         UpdateLabels();
 
         gameObject.SetActive(false);
-        UIPopupItem.CanInteract = true;
+        //UIPopupItem.CanInteract = true;
     }
 
 }

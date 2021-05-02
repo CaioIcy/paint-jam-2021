@@ -52,6 +52,11 @@ public class UICutscene : MonoBehaviour
         //Debug.Log(Screen.width);
     }
 
+    public void Faster()
+    {
+        Speed *= 1.25f;
+    }
+
     private void Update()
     {
         if (_over) return;

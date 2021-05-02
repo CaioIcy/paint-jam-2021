@@ -75,7 +75,7 @@ public class AlienController : MonoBehaviour
         _moving = true;
         _cbStopMoving = () =>
         {
-            UIPopupItem.CanInteract = true;
+            //UIPopupItem.CanInteract = true;
         };
     }
 

@@ -39,6 +39,7 @@ public class UIPopupItem : MonoBehaviour
         AudioManager.ins.Play(AudioManager.ins.Selects);
         FindObjectOfType<AlienController>().Barter(_item.ID);
         Hide();
+        UIPopupItem.CanInteract = false;
     }
 
     public void OnClickClose()
@@ -55,6 +56,6 @@ public class UIPopupItem : MonoBehaviour
     public void Hide()
     {
         gameObject.SetActive(false);
-        CanInteract = true;
+        UIPopupItem.CanInteract = true;
     }
 }
