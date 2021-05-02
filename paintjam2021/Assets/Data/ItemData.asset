@@ -12,16 +12,420 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8541ee2923d34204387467d8b37efe89, type: 3}
   m_Name: ItemData
   m_EditorClassIdentifier: 
+  Csv: {fileID: 4900000, guid: 337245e66e269fb4ea3df03cfb2889e0, type: 3}
   Items:
-  - Name: Item1
-    Description: item1_desc
-    Sprite: {fileID: 21300000, guid: 9d2c94a4651cb5f4787dde66035fce11, type: 3}
-    BaseValue: 100
-  - Name: Item2
-    Description: item2_desc
-    Sprite: {fileID: 21300000, guid: 9ccc2f3b5a7a3b14d9d21869276e4aff, type: 3}
-    BaseValue: 200
-  - Name: Item3
-    Description: item3_desc
-    Sprite: {fileID: 21300000, guid: 0dc8b0af1316ba6449ea2173de4b8948, type: 3}
-    BaseValue: 300
+  - ID: item_Alexa_alpha
+    Name: Alexa
+    Sprite: {fileID: 21300000, guid: 36d5c731881121244839214c39e2ad42, type: 3}
+    Use: Primitive humans used this as a weight to lift and strenghten their arms
+      for hunting with spears.
+    Discovery: Found in the wreckage of a modern human home.  This is definitive
+      proof that throughout time, humans  have always valued the ability of hunting
+      with spears.
+    Observations: Comes with an appendage. Likely used to hang around human wrists
+      and prevent the weight from falling and causing accidents.
+  - ID: item_Arcade Stick_alpha
+    Name: Arcade Stick
+    Sprite: {fileID: 21300000, guid: b4b66e6fb108a494085089369e63c34f, type: 3}
+    Use: 'A controller used for handling spacecraft. '
+    Discovery: Found under a large venue with chairs and monitors, likely a space
+      station. A ghastly stench of human sweat permeated the air around the location.
+    Observations: Humans went to greath lengths in order to launch hunks of metal
+      into space for reasons unclear. Experts speculate they did so to show off their
+      status and wealth.
+  - ID: item_Banana Peel_alpha
+    Name: Banana Peel
+    Sprite: {fileID: 21300000, guid: ca9aeb51c98915a499911871e1c20a29, type: 3}
+    Use: A soft hat to protect humans from the rain.
+    Discovery: Found in a trash can. Apparently, this model did not work properly
+      and was tossed, though it is suspected that it was merely due to the incompetency
+      of its human user.
+    Observations: An early humanologist theorized that these were home defense traps
+      designed to make other humans slip and fall, potentially cracking their skulls,
+      but this theory was quickly disproven.
+  - ID: item_Battery_alpha
+    Name: Battery
+    Sprite: {fileID: 21300000, guid: aa5a17ef94b359d40a0976198c466a5a, type: 3}
+    Use: These small items were used as a substitute for mothers who neglected nurturing
+      their babies. They provided important nutrients as they were nibbled on.
+    Discovery: Found inside a large lot full of radiated air and acid. This was obviously
+      a nursery home.
+    Observations: This is one of the few human items which can still benefit our
+      species. Our infants love to nibble on these things, and grow strong!
+  - ID: item_Best Poster_alpha
+    Name: Best Poster
+    Sprite: {fileID: 21300000, guid: 12e81944818da89458406a7a3f786a8a, type: 3}
+    Use: An ad for a play, which featured a colorful cast of  characters, including
+      different species which co-existed with humans, like ogres, donkeys and dragons.
+    Discovery: This poster was found amidst other ads for plays by a human named
+      "Britney Speare", presumably an expert in human-on-ogre romance fantasy.
+    Observations: It is unclear how humans managed to cast these different species
+      in the play, considering they were much more powerful and ruled over their
+      puny race. It was likely an act of mercy.
+  - ID: item_Bike Seat_alpha
+    Name: Bike Seat
+    Sprite: {fileID: 21300000, guid: e6b43da8ab898654fb52067c6f1c3395, type: 3}
+    Use: An object humans would chew in order to strenghten their jaw and teeth.
+    Discovery: Found attached to a strange object with wheels. No one in the whole
+      world has any idea what that object could possibly be.
+    Observations: This particular one has many bite marks, with the imprints of teeth
+      much larger than humans usually had. This illustrates how effective this jaw-training
+      object was at its job.
+  - ID: item_Blender_alpha
+    Name: Blender
+    Sprite: {fileID: 21300000, guid: d88896b1bc07fed4693346f162d86359, type: 3}
+    Use: A hard hat to protect humans against hazardous objects which might fall
+      from above onto their heads.
+    Discovery: Found in the rubble of a destroyed house, next to a human fossil.
+      It seems this hat was not strong enough to defend the human's head from their
+      collapsing house.
+    Observations: Humans tried hard to protect themselves from physical damage, but
+      failed to recognize that microscopical creatures were far more dangerous to
+      their fragile immune systems. Truly an astounding species.
+  - ID: item_Brut Vodka_alpha
+    Name: Brut Vodka
+    Sprite: {fileID: 21300000, guid: 55e215a10d799e1499feb15280913abe, type: 3}
+    Use: Cleaning product, varied uses, from cleaning the house to anti-bacterial
+      cleaning for cuts and bruises.
+    Discovery: Found inside an old ragged coat lost in a blizzard, with no traces
+      of the owner left behind.
+    Observations: Most bottles found are usually empty, showing humans still had
+      a sense of obligation to clean the earth before going extinct.
+  - ID: item_Canned Pickles_alpha
+    Name: Canned Pickles
+    Sprite: {fileID: 21300000, guid: 7ba831c61e1e2e44cae3826ad06a387a, type: 3}
+    Use: 'A can which at one point contained "Pickles", a staple food in the human
+      diet. '
+    Discovery: Discovered inside a totaled truck containing multiple copies of itself,
+      likely to be distributed to art swindlers  worldwide.
+    Observations: This is a cheap knockoff of Dankbells Soup. After the perfect consumable
+      item was invented, humans rushed to try and imitate it, failing miserably.
+      A simpleton would not be able to notice the difference between both art pieces,
+      however.
+  - ID: item_Clay Filter_alpha
+    Name: Clay Filter
+    Sprite: {fileID: 21300000, guid: bdfe734cd3d416f429bc52591ea66ffd, type: 3}
+    Use: A futuristic, cylindric house model.
+    Discovery: 'Discovered alongside other cylindrical glass objects. These were
+      likely placeholder house models. '
+    Observations: This model's architect was so ahead of their time, that humans
+      shunned them and stuck to building inferiorly-shaped rectangular houses until
+      the end of their times.
+  - ID: item_Fake Flakes_alpha
+    Name: Fake Flakes
+    Sprite: {fileID: 21300000, guid: 6f32d13a720fc4146ac374121012575b, type: 3}
+    Use: This is food devised to please the palate of fishes.  In order to maintain
+      peaceful relations with their  superior species, humans would appease their
+      bellies.
+    Discovery: Found inside a cupboard. In case fishes would threaten human life,
+      this was an important emergency item used to de-escalate conflict.
+    Observations: Fishes are known to control the oceans, and could easily wipe out
+      humans by summoning a group attack known as "Tsunami" if they so pleased. Humans
+      feared a fishy apocalypse, but ultimately ended themselves first.
+  - ID: item_Flip Flop_alpha
+    Name: Flip Flop
+    Sprite: {fileID: 21300000, guid: 97021d9c4313e184eb5e1843ebff6076, type: 3}
+    Use: A glove used for protecting human hands from touching scorching surfaces.
+    Discovery: Found by the door of a human home. Humans would use these gloves to
+      check if the doorknob was hot before using it, in order to avoid burning their
+      frail hands.
+    Observations: The design of these gloves is such that they may also be worn on
+      human feet, if they prefer to interact with objects using their lower appendages.
+  - ID: item_GameToy_alpha
+    Name: GameToy
+    Sprite: {fileID: 21300000, guid: 13dd83a6b3ab990468222164e73497ec, type: 3}
+    Use: An interface used for summoning and interacting with demons.
+    Discovery: Encountered under the pillow of a human infant's bed. Demonically
+      possessed children were a common occurrence within the species.
+    Observations: Game Toys could be combined with different catridges, each holding
+      their own demonic spirit, ready to be released in the comfort of one's own
+      home.
+  - ID: item_Guitar_alpha
+    Name: Guitar
+    Sprite: {fileID: 21300000, guid: 97be09025d75df94f9e2b2948944ea68, type: 3}
+    Use: A weapon that made an extremely loud sound when bashed against another human's
+      head, paralyzing them.
+    Discovery: Found in an armory. Humans manufactured many different such weapons
+      with different decals and designs, illustrating their unhealthy obsession with
+      weaponry.
+    Observations: A team of talented humanologists have discovered that, by strumming
+      the strings of the guitars, they could produced a sound that was actually rather
+      pleasant. If only humans had figured this one out.
+  - ID: item_Hair Dryer_alpha
+    Name: Hair Dryer
+    Sprite: {fileID: 21300000, guid: 1b48b11854b027f4b90e866c9b3a330d, type: 3}
+    Use: This device was utilized to heat up food, as humans preferred to eat their
+      food warm.
+    Discovery: 'Discovered inside a human bathroom. This makes us believe that humans
+      would regularly eat their meals while evacuating. Disgusting. '
+    Observations: Humans would regularly host religious rituals called "Barbecues",
+      and smoke ceremonial meats using this device.
+  - ID: item_Imps Keychain_alpha
+    Name: Imps Keychain
+    Sprite: {fileID: 21300000, guid: 9b67504be6501514d8039e02c03284bf, type: 3}
+    Use: A custom earplug to help humans to sleep comfortably.
+    Discovery: Found attached to house keys. When human cars sounded their very loud
+      alarms, these earplugs would help reduce the ear damage caused by the noise.
+    Observations: Humans with two ears would necessitate two of these items in order
+      to fully protect themselves.
+  - ID: item_Iron_alpha
+    Name: Iron
+    Sprite: {fileID: 21300000, guid: df170ccbe32bc0e4a908789d65faaa2a, type: 3}
+    Use: 'A highly advanced spaceship wingless insects used to get around.  '
+    Discovery: Found on a landing runway in a human home. Insects would seemingly
+      travel to and from human homes  without them even noticing.
+    Observations: It is unknown how these machines operated, but they are most definitely
+      a highly technological marvel of insect technology which we may never truly
+      be able to fathom.
+  - ID: item_Kugo Action Figure_alpha
+    Name: Kugo Action Figure
+    Sprite: {fileID: 21300000, guid: 6b2d73faf5cd68140ae8cce21cbb44d9, type: 3}
+    Use: A figure of a war hero which humans worshipped.
+    Discovery: This small statue was found among other representations of war heroes,
+      especially young female ones. Humans highly valued their warmongering elite.
+    Observations: The arms on this particular statue can move around and make a pose,
+      clasping both hands. This power pose was used to rally platoons into the battlefield.
+  - ID: item_Lesgo_alpha
+    Name: Lesgo
+    Sprite: {fileID: 21300000, guid: e94525f923ef4094ebb6413dea5ce2cd, type: 3}
+    Use: A home security device which operated as a land  trap. Stepping on one of
+      these would cause human trespassers unimaginable pain.
+    Discovery: Found inside a box containing other similar traps of different shapes
+      and sizes. Such dangerous boxes  were commonly sold as consumer goods.
+    Observations: These traps could tether to themselves, forming whichever shape
+      the trapper  desired. This was one of humans' most technological and effective
+      inventions.
+  - ID: item_Marge Rina_alpha
+    Name: Marge Rina
+    Sprite: {fileID: 21300000, guid: a5a49b5d8b3563447bf67afcc443b83b, type: 3}
+    Use: A picture of an uninteresting person drawn by a human infant.
+    Discovery: Found in the wreckage of a large building riddled with other childish
+      doodles. This was likely a daycare.
+    Observations: Humans highly valued childish illustrations due to their abnormal
+      attachment to their own offspring. Their babies were taken care of full-time
+      by their parents until they reached maturity, at 30 years old.
+  - ID: item_Matrioshka Dolls_alpha
+    Name: Matrioshka Dolls
+    Sprite: {fileID: 21300000, guid: c1633efe54f688142803ff2ac9091198, type: 3}
+    Use: A multi-layered protective case, used to hold things of great value to humans,
+      most often their favourite pet, the egg.
+    Discovery: Discovered in a nearly perfect state, being preserved inside a fridge.
+      Sadly, no egg was found inside.
+    Observations: 'Even with no lock system present, the idea behind its design is
+      that the perpetrator would get bored and give up trying to open it before reaching
+      its final layer - thus keeping their egg intact. '
+  - ID: item_Mike Johnson_s Killer_alpha
+    Name: Mike Johnson_s Killer
+    Sprite: {fileID: 21300000, guid: 19ae0e15fa9944a43bc34a12365d16ac, type: 3}
+    Use: A brutal disc-like throwing weapon used for decapitating other humans.
+    Discovery: Found in an armory which had numerous other such death discs in display.
+      Humans loved to mass-produce and distribute deadly weapons.
+    Observations: If there was one thing humans loved more than destroying their
+      planet, it was killing each other. If there was no reason to, they'd gladly
+      invent one.
+  - ID: item_MP3 Player_alpha
+    Name: MP3 Player
+    Sprite: {fileID: 21300000, guid: c3fdeef146f34f340b3c387b1b412445, type: 3}
+    Use: Humans inserted this toy into their mouths to gather  bodily warmth data,
+      for entertainment purposes. It  was briefly popular as a fad, then faded out.
+    Discovery: Found in a collapsed home. A strange sound was emanating from it at
+      the time of its discovery, but no one has ever heard it since. Humanologists
+      concluded that this item was merely temporarily possessed by a demonic entity.
+    Observations: Humans would occasionaly insert this item into their ears by mistake,
+      causing irreversible hearing loss.
+  - ID: item_Nobel Prize_alpha
+    Name: Nobel Prize
+    Sprite: {fileID: 21300000, guid: b440c99b2e0944642a005f711ab5f75f, type: 3}
+    Use: A device meant to mind control living beings. Through engraving the victim's
+      name on the plaque, humans could completely hypnotize others of their own species.
+    Discovery: Salvaged from an area named "Ollywood", presumed to be a massive mind
+      control research complex.
+    Observations: Humans valued controlling others very highly, as they did not believe
+      in peaceful resolutions or diplomatic reasoning.
+  - ID: item_Pacifier_alpha
+    Name: Pacifier
+    Sprite: {fileID: 21300000, guid: 2dff86be4c8a8ba4a84952d4405e463d, type: 3}
+    Use: Human adults used this item to enhance sexual pleasure by introducing it
+      in their orifices.
+    Discovery: Found on a human infant's mouth. Truly, there was no limit to human
+      degeneracy.
+    Observations: The existence of this item confirms that humans were openly degenerates,
+      much moreso than our species, which value integrity and public opinion.
+  - ID: item_Paper Clip_alpha
+    Name: Paper Clip
+    Sprite: {fileID: 21300000, guid: 2f4b5f2625c0251479085a97bdb88686, type: 3}
+    Use: A discrete assassination weapon that could be attached to clothing and hidden
+      from sight, then twisted into a tiny spear.
+    Discovery: Discovered in the wreckage of a human office. This illustrates how
+      cut-throat human jobs really were.
+    Observations: Handle with care, as this item breaks very easily. Humans were
+      not great at making quality products.
+  - ID: item_Pen_alpha
+    Name: Pen
+    Sprite: {fileID: 21300000, guid: e00691cbb8888cd478d7158b1bef9bd0, type: 3}
+    Use: This pointy item is a paintbrush, used to ink reminders humans' skin. These
+      were called "Tattoos".
+    Discovery: 'This was found inside a cup with similar brushes. "Tattoos" were
+      popular in office spaces, as humans would use their own bodies as schedules
+      or white boards. '
+    Observations: Humans were notorious for their lack of long-term and short-term
+      memory. They would constantly forget even the most important of dates, such
+      as their international holiday of "Watermelon Seed Day".
+  - ID: item_Ping Pong Paddle_alpha
+    Name: Ping Pong Paddle
+    Sprite: {fileID: 21300000, guid: c7ea96ffd6152aa4dbf520699404052a, type: 3}
+    Use: These round objects were used to protect the human eye from the Sun. Also
+      comes with a convenient grip to make holding it easier.
+    Discovery: While many fragmented paddles have been found, the few intact ones
+      to be found were located near churches. This might indicate a possible religious
+      importance.
+    Observations: Early on, these paddles were thought to be early human wheel concepts.
+      Further investigation has determined, however, that humans did not invent the
+      wheel at all, but instead stole such technology from beings of other planets.
+  - ID: item_Pliers_alpha
+    Name: Pliers
+    Sprite: {fileID: 21300000, guid: 43d250188bb9a014e8d8f5e25d9fd5d0, type: 3}
+    Use: 'A bladed weapon devised for battling  smaller insects. '
+    Discovery: Discovered in a case full of other nefarious objects, likely a torture
+      kit to pry insects for information.
+    Observations: Insects, as we know, are much smarter than humans, and thus were
+      easily able to outmanuever these rudimentary weapons.
+  - ID: item_Potato Chip_alpha
+    Name: Potato Chip
+    Sprite: {fileID: 21300000, guid: f3087cf5c34b0f545a809d33fe7d7777, type: 3}
+    Use: A piece of salty and wavy memorabilia. Likely used as decoration, to remind
+      humans of the ocean.
+    Discovery: Found inside a long can, likely a gift receptacle previously filled
+      with packing peanuts.
+    Observations: Breaks off very easily. Its fragility is likely intentional, as
+      a representation of humans' short and pathetic lifespans.
+  - ID: item_Queue-Tip_alpha
+    Name: Queue-Tip
+    Sprite: {fileID: 21300000, guid: adc3134bc39486f47b72bebd337785ab, type: 3}
+    Use: A culinary tool, used for gathering small food portions and carrying them
+      into the humans' mouths.
+    Discovery: Found in a pack alongside many other identical tools. This is likely
+      due to them becoming obsolete very easily, as a result of a phenomenon called
+      "Planned Obsolescence".
+    Observations: Humans were hopelessly outmatched by other species which lived
+      alongside them,  like the ones they called "Anteaters". This was how they tried,
+      and failed, to compensate.
+  - ID: item_Recorder_alpha
+    Name: Recorder
+    Sprite: {fileID: 21300000, guid: 6a47baa772770594f984d019662261df, type: 3}
+    Use: Recreational device used by humans to surpass the limitations of their bodies
+      and smoke the largest amount of rolled herbs simultaneously possible.
+    Discovery: Unearthed inside a building named "School", likely a place where humans
+      congregated in order to do drugs.
+    Observations: Out of the many human degeneracies, getting inebriated with herbs
+      was one of the most foul routinely practiced by the species. In a shocking
+      discovery, researchers found that even the newborn were obligated to participate
+      in such rituals.
+  - ID: item_Remote_alpha
+    Name: Remote
+    Sprite: {fileID: 21300000, guid: e87f246db90ba0f4ea8bc9990e5bd1c5, type: 3}
+    Use: One of the humans' most technologically advanced items. This was used to
+      open interdimensional portals and travel through space and time.
+    Discovery: Found buried deep beneath a couch. Goes to show that no matter how
+      important an item was, it would somehow always carelessly slip away from their
+      gross, greasy little hands.
+    Observations: This was modern humans' main mode of transportation. The engravings
+      on its interface have been translated by our team, and represent primitive
+      coordinates.
+  - ID: item_Rubber Chicken_alpha
+    Name: Rubber Chicken
+    Sprite: {fileID: 21300000, guid: bb17299dc730c61468051551e51d7e0b, type: 3}
+    Use: A sculpture of an animal which humans worshipped religiously.
+    Discovery: Found above a door. Humans believed this placement of the object would
+      bring them good luck.
+    Observations: This sculpture was believed to be able to communicate with its
+      worshipper, if their faith was strong enough. This has obviously been debunked,
+      as sculptures cannot emit sound.
+  - ID: item_Saw_alpha
+    Name: Saw
+    Sprite: {fileID: 21300000, guid: 8399d5b4e89f8674893830245f64d43b, type: 3}
+    Use: This item's use is one of the most highly debated questions in the field
+      of humanology, but our best theory is that it was used to cut stuff. Most likely,
+      other humans. Despicable.
+    Discovery: This was found in a torture chamber with other tools for smacking
+      and cutting. So many torture chambers  were discovered around the globe, we
+      can only  assume humans had a sick fetish for pain.
+    Observations: Our species has reapropriated these kinds of deadly items for everyday
+      use. For example, we use this tool to cut wood and build homes - if only humans
+      knew how to properly use the things they themselves created.
+  - ID: item_Shoe_alpha
+    Name: Shoe
+    Sprite: {fileID: 21300000, guid: e3fe0b135cc0ca04ca5f81fe24794f51, type: 3}
+    Use: A recipient for collecting human feces.
+    Discovery: Fished from the sea. This is where humans were known to dump their
+      droppings in, which explained their terrible race-relations with fish.
+    Observations: This feces-shaped pouch was also used in house parties to prank
+      other  humans who would accidentally step on them, and dirty their feet.
+  - ID: item_Spatula_alpha
+    Name: Spatula
+    Sprite: {fileID: 21300000, guid: 2158169ad9fd3cc41a812fe5addbe724, type: 3}
+    Use: This was a disciplinary tool for reprimanding naughty human infants.
+    Discovery: Found inside a rectangular container, alongside other disciplinary
+      tools of similar use. The naughtier the infant acted, the deadlier the tool
+      used.
+    Observations: 'A spanking from this object would likely lacerate the infants''
+      fragile skins, scarring them permanently. Humans were truly the worst. '
+  - ID: item_Speaker_alpha
+    Name: Speaker
+    Sprite: {fileID: 21300000, guid: 93c04eef3a48bb641830693c6ba7f8d6, type: 3}
+    Use: A tray table recipient with two bowls for human meals.
+    Discovery: Discovered in an armory full of guitars. This, alongside the resilience
+      of the object, strenghtens the theory that this was mainly used during battles
+      to serve food for soldiers.
+    Observations: The left bowl was typically reserved for a nutritious meal, and
+      the right bowl was reserved for what humans called "Dessert", which actively
+      helped in the decay of their teeth and heart. It was truly a foolish ritual.
+  - ID: item_Super Killerman 2000 Deluxe 3_alpha
+    Name: Super Killerman 2000 Deluxe 3
+    Sprite: {fileID: 21300000, guid: ed704b29376373342845e0e8ea6ebd66, type: 3}
+    Use: A romance movie, able to be reproduced on a movie-playing console.
+    Discovery: Unearthed amidst the rubble of a teenage human's room. Teenagers loved
+      movies, and often pretended to control their outcome using plastic interfaces.
+    Observations: Movies were moving pictures which represented a narrative, in which
+      humans overcame adversity and inevitably triumphed in the end. This, of course,
+      was pure fantasy and never actually happened in human history as we know it.
+  - ID: item_Telescope_alpha
+    Name: Telescope
+    Sprite: {fileID: 21300000, guid: 323e662c12d9bec4fb0283a81df7ba70, type: 3}
+    Use: This was an instrument used for playing a bloody sport humans called "Baseball".
+    Discovery: Found inside a large, globe-shaped hut. This was the place in which
+      "Baseball" games took place.
+    Observations: In "Baseball", humans attempted to knock each other out using this
+      instrument. The last player standing would yell "Home Run!" and be deemed victorious,
+      attaining endless glory and wealth.
+  - ID: item_Umbrella_alpha
+    Name: Umbrella
+    Sprite: {fileID: 21300000, guid: ee691bf92a2030444b5982f9e494ef2b, type: 3}
+    Use: An offensive and defensive weapon, mimicking the design of a lance and a
+      shield at the same time when open.
+    Discovery: These items have been found scattered all around the globe. Humans
+      were a warmongering species that glorified combat,  participating in it for
+      sport during their daily routines.
+    Observations: Considered by many the peak of close-ranged human combat, most
+      houses had at least one, if not many. The small sized variants indicate human
+      infants were trained to master it from an early age.
+  - ID: item_War Hat_alpha
+    Name: War Hat
+    Sprite: {fileID: 21300000, guid: 07ec35babaa49e9429e4777b2ed23cf7, type: 3}
+    Use: A hat designed for players of the bloody sport "Baseball". The emblem on
+      it varies according to the player's ranking.
+    Discovery: Collected from a fallen war-loving human's collection.  "Baseball"
+      seemed to be very popular among war fans.
+    Observations: Despite its bloody and violent nature, baseball players preferred
+      to look their best with this high-fashion hat when practising it, as opposed
+      to wearing real head protection gear.
+  - ID: item_Xabasco Pepper_alpha
+    Name: Xabasco Pepper
+    Sprite: {fileID: 21300000, guid: 1ff42f1e49c8f5949b8ee1dd4093801f, type: 3}
+    Use: These eyedrops were used to lubricate human eyes, which were incredibly
+      dry and sensitive.
+    Discovery: Found in the remains of a human "Restaurant". We are unsure of the
+      purpose of this establishment, but experts speculate it was a place of religious
+      importance.
+    Observations: Xabasco was needed in order to heal eye damage caused by staring
+      into the sun. Humans believed this act would gift them with superpowers.

@@ -10,6 +10,8 @@ public class ImageTool : EditorWindow
     Texture2D newImg;
     Color colorToRemove = Color.magenta;
     public static ImageTool win;
+    string prefix = "some_";
+    string dir = "Misc";
 
     [MenuItem("Window/Tools/Alpha-fy Images")]
     static void Init()
@@ -27,6 +29,8 @@ public class ImageTool : EditorWindow
         img = (Texture2D)EditorGUILayout.ObjectField(img, typeof(Texture2D), false, GUILayout.MinWidth(128), GUILayout.MinHeight(128), GUILayout.MaxWidth(128), GUILayout.MaxHeight(128));
 
         colorToRemove = EditorGUILayout.ColorField(colorToRemove, GUILayout.MaxWidth(128));
+        dir = EditorGUILayout.TextField(dir, GUILayout.MaxWidth(128));
+        prefix = EditorGUILayout.TextField(prefix, GUILayout.MaxWidth(128));
 
         if (GUILayout.Button("Preview", GUILayout.MinWidth(128), GUILayout.MinHeight(32), GUILayout.MaxWidth(128), GUILayout.MaxHeight(128)))
             newImg = RemoveColor(colorToRemove, img);
@@ -57,11 +61,15 @@ public class ImageTool : EditorWindow
 
     }
 
-    public static void RemoveColor(Color c, UnityEngine.Object[] imgs)
+    public void RemoveColor(Color c, UnityEngine.Object[] imgs)
     {
         if (!Directory.Exists("Assets/Art/Alphafyed/"))
         {
             Directory.CreateDirectory("Assets/Art/Alphafyed/");
+        }
+        if (!Directory.Exists($"Assets/Art/Alphafyed/{dir}/"))
+        {
+            Directory.CreateDirectory($"Assets/Art/Alphafyed/{dir}/");
         }
         float inc = 0f;
         foreach (Texture2D i in imgs)
@@ -88,7 +96,7 @@ public class ImageTool : EditorWindow
             n.Apply();
 
             byte[] bytes = n.EncodeToPNG();
-            File.WriteAllBytes("Assets/Art/Alphafyed/" + i.name + "_alpha.png", bytes);
+            File.WriteAllBytes($"Assets/Art/Alphafyed/{dir}/" + prefix + i.name + "_alpha.png", bytes);
         }
 
         EditorUtility.ClearProgressBar();

@@ -16,6 +16,7 @@ public class PaintAssetProcessor : UnityEditor.AssetPostprocessor
         //textureImporter.alphaSource = TextureImporterAlphaSource.None;
         textureImporter.filterMode = FilterMode.Point;
         textureImporter.isReadable = true;
+        textureImporter.textureCompression = TextureImporterCompression.Uncompressed;
 
         ////var ctx = (Texture2D)context.mainObject;
         ////ImageTool.RemoveColor(FilterColor, ctx);

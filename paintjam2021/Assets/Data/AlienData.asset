@@ -12,10 +12,580 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 096dd0682b33b9c4cbb640716d9c8277, type: 3}
   m_Name: AlienData
   m_EditorClassIdentifier: 
+  Csv: {fileID: 4900000, guid: 0c2272929ca50ff4686277ac256b1e0a, type: 3}
+  ItemData: {fileID: 11400000, guid: d69e3b4521f89b2449e616d426f1db96, type: 2}
   Aliens:
-  - Name: Shoeman
-    Description: desc_alien_shoeman
-    Sprite: {fileID: 21300000, guid: 863f705b6aafa5e43b57c191ef03193c, type: 3}
-  - Name: Cleber
-    Description: desc_alien_cleber
-    Sprite: {fileID: 21300000, guid: 3ff9aa1755cd23241b71998ed80f7e76, type: 3}
+  - ID: alien_Alisson_alpha
+    Name: Alisson
+    Sprite: {fileID: 21300000, guid: bbba8b0f5dc319941b579e3d883e8b8d, type: 3}
+    Behaviour: default
+    Messages:
+    - I have vowed to always stay on character, for life is my stage. I AM a human.
+      I care about... things humans care about.
+    Interests:
+    - ItemID: Best Poster
+      Interest: 1000
+    - ItemID: Super Killerman 2000 Deluxe 3
+      Interest: 800
+    - ItemID: MP3 Player
+      Interest: 800
+    - ItemID: Nobel Prize
+      Interest: 500
+    - ItemID: Fake Flakes
+      Interest: 500
+    - ItemID: Potato Chip
+      Interest: 500
+    - ItemID: Kugo Action Figure
+      Interest: 500
+    - ItemID: Rubber Chicken
+      Interest: 500
+    - ItemID: Brut Vodka
+      Interest: 200
+    - ItemID: Ping Pong Paddle
+      Interest: 200
+    - ItemID: Canned Pickles
+      Interest: 200
+  - ID: alien_Caca_alpha
+    Name: Caca
+    Sprite: {fileID: 21300000, guid: 62abacaf3c34f6544aabe3ecc1876ae9, type: 3}
+    Behaviour: default
+    Messages:
+    - Me look two hand weapon. Me go battle. Hate low radiation beings.
+    Interests:
+    - ItemID: Guitar
+      Interest: 1000
+    - ItemID: Umbrella
+      Interest: 800
+    - ItemID: Telescope
+      Interest: 800
+    - ItemID: Saw
+      Interest: 800
+    - ItemID: Mike Johnson_s Killer
+      Interest: 500
+    - ItemID: Pliers
+      Interest: 200
+    - ItemID: Paper Clip
+      Interest: 200
+    - ItemID: Spatula
+      Interest: 200
+  - ID: alien_Cleber_alpha
+    Name: Cleber
+    Sprite: {fileID: 21300000, guid: f7fb068092af8ba47a19801a6269480c, type: 3}
+    Behaviour: none
+    Messages:
+    - .................................................
+    Interests: []
+  - ID: alien_Cleito_alpha
+    Name: Cleito
+    Sprite: {fileID: 21300000, guid: edb6b18dfcbb43349af5e89b50380ada, type: 3}
+    Behaviour: default
+    Messages:
+    - Shiitake, shimeji. I need something to protect my shrooms from vultures.
+    Interests:
+    - ItemID: Blender
+      Interest: 1000
+    - ItemID: War Hat
+      Interest: 800
+    - ItemID: Banana Peel
+      Interest: 500
+    - ItemID: Canned Pickles
+      Interest: 200
+  - ID: alien_Fetus_alpha
+    Name: Fetus
+    Sprite: {fileID: 21300000, guid: 95be9adb32d939b49a223764ea6e24ff, type: 3}
+    Behaviour: default
+    Messages:
+    - I'm Fetus! I'm 5, and my favorite things to do are suckle, doodle, cry and
+      poop!
+    Interests:
+    - ItemID: Battery
+      Interest: 1000
+    - ItemID: Marge Rina
+      Interest: 800
+    - ItemID: Pen
+      Interest: 800
+    - ItemID: Pacifier
+      Interest: 800
+    - ItemID: Shoe
+      Interest: 800
+  - ID: alien_Figo_alpha
+    Name: Figo
+    Sprite: {fileID: 21300000, guid: fb0e25141ad356c43a0afaf5ae8104f9, type: 3}
+    Behaviour: default
+    Messages:
+    - Fires... I really like my fires. I want to touch them. Protect them. Burn a
+      house down.
+    Interests:
+    - ItemID: Flip Flop
+      Interest: 1000
+    - ItemID: Banana Peel
+      Interest: 1000
+    - ItemID: Clay Filter
+      Interest: 1000
+  - ID: alien_Gleber_alpha
+    Name: Gleber
+    Sprite: {fileID: 21300000, guid: 84cef44936693354aad34ab332c8fe19, type: 3}
+    Behaviour: default
+    Messages:
+    - Eating is art. Humans eat beautifully...
+    Interests:
+    - ItemID: Queue-Tip
+      Interest: 1000
+    - ItemID: Hair Dryer
+      Interest: 1000
+    - ItemID: Speaker
+      Interest: 1000
+    - ItemID: Canned Pickles
+      Interest: 800
+    - ItemID: Fake Flakes
+      Interest: 800
+    - ItemID: Battery
+      Interest: 500
+    - ItemID: Potato Chip
+      Interest: 200
+    - ItemID: Spatula
+      Interest: 200
+    - ItemID: Brut Vodka
+      Interest: 200
+  - ID: alien_Hahohahohu_alpha
+    Name: Hahohahohu
+    Sprite: {fileID: 21300000, guid: 7ceb1692fde50174c889f24f567b6bb0, type: 3}
+    Behaviour: default
+    Messages:
+    - Me hungry. Favorite food guard rail. What on menu?
+    Interests:
+    - ItemID: Saw
+      Interest: 1000
+    - ItemID: Iron
+      Interest: 800
+    - ItemID: Nobel Prize
+      Interest: 500
+    - ItemID: Battery
+      Interest: 500
+    - ItemID: Canned Pickles
+      Interest: 500
+    - ItemID: Blender
+      Interest: 500
+    - ItemID: Speaker
+      Interest: 500
+    - ItemID: Imps Keychain
+      Interest: 200
+    - ItemID: Pliers
+      Interest: 200
+  - ID: alien_Helolololololo_alpha
+    Name: Helolololololo
+    Sprite: {fileID: 21300000, guid: b97713b9ffe56b04dbbe1887e0eba79f, type: 3}
+    Behaviour: default
+    Messages:
+    - Me want get stronger. Compensate tiny brain. Help with?
+    Interests:
+    - ItemID: Alexa
+      Interest: 1000
+    - ItemID: Bike Seat
+      Interest: 800
+    - ItemID: Guitar
+      Interest: 500
+    - ItemID: Saw
+      Interest: 200
+  - ID: alien_Jena_alpha
+    Name: Jena
+    Sprite: {fileID: 21300000, guid: 29e50230394cda94b8c52fd11810239a, type: 3}
+    Behaviour: default
+    Messages:
+    - Need liquid... Feed Jena... Jena absorbs anything. P-p-p-please...
+    Interests:
+    - ItemID: Xabasco Pepper
+      Interest: 1000
+    - ItemID: Brut Vodka
+      Interest: 1000
+  - ID: alien_Joselit_alpha
+    Name: Joselit
+    Sprite: {fileID: 21300000, guid: 07bd53a8ace00974f89be4a8b8764343, type: 3}
+    Behaviour: default
+    Messages:
+    - I love me some s-s-sssportss. If only I had handsssss like humansssss...
+    Interests:
+    - ItemID: Telescope
+      Interest: 1000
+    - ItemID: War Hat
+      Interest: 1000
+    - ItemID: Shoe
+      Interest: 500
+    - ItemID: Ping Pong Paddle
+      Interest: 500
+    - ItemID: Bike Seat
+      Interest: 200
+  - ID: alien_Juao_alpha
+    Name: Juao
+    Sprite: {fileID: 21300000, guid: 344817bad2b72e848a3f20f7fdc20396, type: 3}
+    Behaviour: default
+    Messages:
+    - I'm so itchy... These little buggers are annoying...
+    Interests:
+    - ItemID: Pliers
+      Interest: 1000
+    - ItemID: Paper Clip
+      Interest: 500
+  - ID: alien_Jubirubis_alpha
+    Name: Jubirubis
+    Sprite: {fileID: 21300000, guid: 39742ff245421cb4ba92e8f92dc3843c, type: 3}
+    Behaviour: default
+    Messages:
+    - P-praise be to all gods, su-supernatural entities and items! I c-curse non-believers!
+    Interests:
+    - ItemID: Rubber Chicken
+      Interest: 1000
+    - ItemID: GameToy
+      Interest: 1000
+    - ItemID: Nobel Prize
+      Interest: 200
+    - ItemID: Kugo Action Figure
+      Interest: 200
+    - ItemID: Ping Pong Paddle
+      Interest: 200
+  - ID: alien_Lamper_alpha
+    Name: Lamper
+    Sprite: {fileID: 21300000, guid: ab41c9578158fc0449c87bf2f4c40977, type: 3}
+    Behaviour: default
+    Messages:
+    - Humans were right. WAR was truly the greatest pleasure! ... Boy how I love
+      imagining the destruction that took place way before I was born.
+    Interests:
+    - ItemID: Kugo Action Figure
+      Interest: 1000
+    - ItemID: Mike Johnson_s Killer
+      Interest: 800
+    - ItemID: Pliers
+      Interest: 500
+    - ItemID: Guitar
+      Interest: 500
+    - ItemID: Paper Clip
+      Interest: 500
+    - ItemID: Lesgo
+      Interest: 500
+    - ItemID: War Hat
+      Interest: 200
+    - ItemID: Umbrella
+      Interest: 200
+    - ItemID: Arcade Stick
+      Interest: 200
+    - ItemID: Iron
+      Interest: 200
+    - ItemID: Saw
+      Interest: 200
+    - ItemID: Telescope
+      Interest: 200
+    - ItemID: Spatula
+      Interest: 200
+  - ID: alien_Lata_alpha
+    Name: Lata
+    Sprite: {fileID: 21300000, guid: 20cb59a3a3ba2804380715adba38f008, type: 3}
+    Behaviour: default
+    Messages:
+    - I need a new home. Where's my mommy?
+    Interests:
+    - ItemID: Canned Pickles
+      Interest: 1000
+    - ItemID: Battery
+      Interest: 800
+    - ItemID: Marge Rina
+      Interest: 500
+    - ItemID: MP3 Player
+      Interest: 200
+    - ItemID: Fake Flakes
+      Interest: 200
+  - ID: alien_Lilulelo _ Afafa_alpha
+    Name: Lilulelo _ Afafa
+    Sprite: {fileID: 21300000, guid: 3efe9a941dc979c449c1d5a91bb745ad, type: 3}
+    Behaviour: default
+    Messages:
+    - We just married. Want beautiful fashion. Want household items for new home.
+      We throw party!
+    Interests:
+    - ItemID: Hair Dryer
+      Interest: 1000
+    - ItemID: War Hat
+      Interest: 800
+    - ItemID: Speaker
+      Interest: 500
+    - ItemID: Queue-Tip
+      Interest: 500
+    - ItemID: Matrioshka Dolls
+      Interest: 500
+    - ItemID: Banana Peel
+      Interest: 500
+    - ItemID: Blender
+      Interest: 500
+    - ItemID: Umbrella
+      Interest: 200
+    - ItemID: Flip Flop
+      Interest: 200
+    - ItemID: Imps Keychain
+      Interest: 200
+    - ItemID: Brut Vodka
+      Interest: 200
+  - ID: alien_Memanomeno_alpha
+    Name: Memanomeno
+    Sprite: {fileID: 21300000, guid: 01baa85d8631d7347925cf997b53bcf4, type: 3}
+    Behaviour: default
+    Messages:
+    - Me smartest ever. Radiation supercharge brain. Egg come before chicken. Need
+      most advanced object.
+    Interests:
+    - ItemID: Remote
+      Interest: 1000
+    - ItemID: Iron
+      Interest: 1000
+    - ItemID: Arcade Stick
+      Interest: 500
+    - ItemID: GameToy
+      Interest: 500
+    - ItemID: Clay Filter
+      Interest: 200
+  - ID: alien_Milton_alpha
+    Name: Milton
+    Sprite: {fileID: 21300000, guid: dcf78c0e3887f8641bc1a5b09defc510, type: 3}
+    Behaviour: default
+    Messages:
+    - The greatest gift bestowed by our creators, was the hablity to create itself.
+      To build, innovate and challenge is to give birth. - Me
+    Interests:
+    - ItemID: Clay Filter
+      Interest: 1000
+    - ItemID: Potato Chip
+      Interest: 800
+    - ItemID: Best Poster
+      Interest: 500
+    - ItemID: Super Killerman 2000 Deluxe 3
+      Interest: 500
+    - ItemID: Canned Pickles
+      Interest: 500
+    - ItemID: Pen
+      Interest: 200
+  - ID: alien_Nulapinomelisoferiponerosefilo_alpha
+    Name: Nulapinomelisoferiponerosefilo
+    Sprite: {fileID: 21300000, guid: 1b3738c0ff816db4c9f8923f6261b356, type: 3}
+    Behaviour: default
+    Messages:
+    - Please... Need friend... Please give friend... Anyone...
+    Interests:
+    - ItemID: Super Killerman 2000 Deluxe 3
+      Interest: 1000
+    - ItemID: GameToy
+      Interest: 1000
+    - ItemID: Kugo Action Figure
+      Interest: 800
+    - ItemID: Marge Rina
+      Interest: 500
+    - ItemID: Alexa
+      Interest: 500
+    - ItemID: Best Poster
+      Interest: 500
+    - ItemID: Imps Keychain
+      Interest: 500
+    - ItemID: Fake Flakes
+      Interest: 200
+  - ID: alien_Papaparo_alpha
+    Name: Papaparo
+    Sprite: {fileID: 21300000, guid: 08c800161e6548043abef1bc4dc12103, type: 3}
+    Behaviour: default
+    Messages:
+    - Munch lifestyle. Give soft munch. Chew least 50 year before spit.
+    Interests:
+    - ItemID: Bike Seat
+      Interest: 1000
+    - ItemID: Rubber Chicken
+      Interest: 800
+    - ItemID: Shoe
+      Interest: 500
+    - ItemID: Pacifier
+      Interest: 500
+    - ItemID: Best Poster
+      Interest: 200
+    - ItemID: Queue-Tip
+      Interest: 200
+    - ItemID: Banana Peel
+      Interest: 200
+    - ItemID: Battery
+      Interest: 200
+  - ID: alien_Papero_alpha
+    Name: Papero
+    Sprite: {fileID: 21300000, guid: 9bfa87a3a4c6576459e118c61044e3d6, type: 3}
+    Behaviour: default
+    Messages:
+    - Jus' cuz' I look like a kid they won't listen to me. Betcha ass they will obey
+      me! I'm cool and strong...
+    Interests:
+    - ItemID: Nobel Prize
+      Interest: 1000
+    - ItemID: Recorder
+      Interest: 500
+    - ItemID: Spatula
+      Interest: 500
+    - ItemID: Alexa
+      Interest: 500
+    - ItemID: Remote
+      Interest: 200
+    - ItemID: Arcade Stick
+      Interest: 200
+  - ID: alien_Phono_alpha
+    Name: Phono
+    Sprite: {fileID: 21300000, guid: 79ed7bba05fa3494e9cc36c75cb2a5a0, type: 3}
+    Behaviour: default
+    Messages:
+    - I'm just an uninteresting guy. I want your least interesting thing, and nothing
+      else will do.
+    Interests:
+    - ItemID: Marge Rina
+      Interest: 1000
+  - ID: alien_Pu_alpha
+    Name: Pu
+    Sprite: {fileID: 21300000, guid: eda749e98b710a4428109dbe4e1d006c, type: 3}
+    Behaviour: accepts_all
+    Messages:
+    - .....????????
+    Interests: []
+  - ID: alien_Roberto_alpha
+    Name: Roberto
+    Sprite: {fileID: 21300000, guid: b82f707b3b745b342b812480e20d492f, type: 3}
+    Behaviour: default
+    Messages:
+    - I am Pop Art & Culture Researcher Roberto. What have you got in store, friend?
+    Interests:
+    - ItemID: Super Killerman 2000 Deluxe 3
+      Interest: 1000
+    - ItemID: Best Poster
+      Interest: 1000
+    - ItemID: Canned Pickles
+      Interest: 800
+    - ItemID: MP3 Player
+      Interest: 800
+    - ItemID: Potato Chip
+      Interest: 500
+    - ItemID: Fake Flakes
+      Interest: 200
+  - ID: alien_Romario Jr_alpha
+    Name: Romario Jr
+    Sprite: {fileID: 21300000, guid: ed62c70dfdeb1be47933cd3a60c69c19, type: 3}
+    Behaviour: default
+    Messages:
+    - I can't sleep, broooo... Everyone's screamin'. I need something to quiet down,
+      bro.
+    Interests:
+    - ItemID: Imps Keychain
+      Interest: 1000
+    - ItemID: Recorder
+      Interest: 1000
+    - ItemID: Queue-Tip
+      Interest: 200
+  - ID: alien_Sk8ro_alpha
+    Name: Sk8ro
+    Sprite: {fileID: 21300000, guid: af0fcd338cf9df54aa7bb6b69ec23356, type: 3}
+    Behaviour: default
+    Messages:
+    - Not cool bro, gotta cool off. Got something to help me chill? I'm trynna hide
+      from the sun you see, not really in the mood for exploding.
+    Interests:
+    - ItemID: Ping Pong Paddle
+      Interest: 1000
+    - ItemID: Xabasco Pepper
+      Interest: 800
+    - ItemID: Recorder
+      Interest: 800
+    - ItemID: Umbrella
+      Interest: 500
+    - ItemID: MP3 Player
+      Interest: 200
+  - ID: alien_Sususisi_alpha
+    Name: Sususisi
+    Sprite: {fileID: 21300000, guid: 9479f7a0a80a9e14f89c6317d938248e, type: 3}
+    Behaviour: default
+    Messages:
+    - Oooh... Please... Hehehe... Give me something... Hot... Hehehe...
+    Interests:
+    - ItemID: Pacifier
+      Interest: 1000
+    - ItemID: Xabasco Pepper
+      Interest: 1000
+    - ItemID: Mike Johnson_s Killer
+      Interest: 500
+    - ItemID: Iron
+      Interest: 500
+    - ItemID: Hair Dryer
+      Interest: 500
+    - ItemID: Spatula
+      Interest: 500
+    - ItemID: Alexa
+      Interest: 200
+  - ID: alien_Teevolini_alpha
+    Name: Teevolini
+    Sprite: {fileID: 21300000, guid: 317d1d38d6acb4247863714298a988d8, type: 3}
+    Behaviour: default
+    Messages:
+    - HYAA! This spaceman here's a total control freak, seven days a week. I need
+      things right at the palm of my hands, my way or the highway!
+    Interests:
+    - ItemID: Arcade Stick
+      Interest: 1000
+    - ItemID: Nobel Prize
+      Interest: 800
+    - ItemID: Remote
+      Interest: 500
+    - ItemID: Pen
+      Interest: 500
+    - ItemID: Iron
+      Interest: 200
+  - ID: alien_Twotu_alpha
+    Name: Twotu
+    Sprite: {fileID: 21300000, guid: ee045a952b950294ab904e88b3d907d1, type: 3}
+    Behaviour: default
+    Messages:
+    - We wishes for most destructives weapons, we wishes for inspirations. Two of
+      us killing lots for funs!
+    Interests:
+    - ItemID: Mike Johnson_s Killer
+      Interest: 1000
+    - ItemID: Paper Clip
+      Interest: 800
+    - ItemID: Pliers
+      Interest: 500
+    - ItemID: Saw
+      Interest: 500
+    - ItemID: Guitar
+      Interest: 500
+    - ItemID: Telescope
+      Interest: 500
+    - ItemID: Umbrella
+      Interest: 200
+  - ID: alien_Wapuwopu_alpha
+    Name: Wapuwopu
+    Sprite: {fileID: 21300000, guid: 7f658e1b48aa87d40b99481e8568c7ee, type: 3}
+    Behaviour: default
+    Messages:
+    - '*beep* Security important. Need home defense. *beep*'
+    Interests:
+    - ItemID: Lesgo
+      Interest: 1000
+    - ItemID: Matrioshka Dolls
+      Interest: 800
+    - ItemID: Banana Peel
+      Interest: 500
+    - ItemID: Umbrella
+      Interest: 200
+  - ID: alien_Xupilin_alpha
+    Name: Xupilin
+    Sprite: {fileID: 21300000, guid: 892d4da87b064094683292fed61e4187, type: 3}
+    Behaviour: default
+    Messages:
+    - I'm so tired of taking care of my children. Got any bad ideas?
+    Interests:
+    - ItemID: Spatula
+      Interest: 1000
+    - ItemID: Super Killerman 2000 Deluxe 3
+      Interest: 800
+    - ItemID: Battery
+      Interest: 500
+    - ItemID: MP3 Player
+      Interest: 500
+    - ItemID: Marge Rina
+      Interest: 200
