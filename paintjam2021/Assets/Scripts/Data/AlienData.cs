@@ -19,9 +19,20 @@ public class Alien
     public string Name;
     public Sprite Sprite;
     public string Behaviour;
+
+
     public List<string> Messages;
     public List<ItemInterest> Interests;
 
+    //public string Message;
+    //public string InterestItemID;
+    //public int InterestCost;
+
+
+}
+
+public class AlienBv
+{
     public const string BvDefault = "default";
     public const string BvAll = "accepts_all";
     public const string BvNone = "none";
@@ -75,6 +86,7 @@ public class AlienDataEditor : UnityEditor.Editor
                 }
                 SetAlienInfo(t, it, alienSpr, ret);
             }
+            UnityEditor.EditorUtility.SetDirty(t);
         }
     }
 
@@ -94,15 +106,16 @@ public class AlienDataEditor : UnityEditor.Editor
         }
 
         alien.Messages = new List<string> { dic[alien.Name].Item1 };
+        //alien.Message = dic[alien.Name].Item1;
         alien.Behaviour = dic[alien.Name].Item2;
 
-        if(alien.Behaviour != Alien.BvAll && alien.Behaviour != Alien.BvDefault && alien.Behaviour != Alien.BvNone)
+        if(alien.Behaviour != AlienBv.BvAll && alien.Behaviour != AlienBv.BvDefault && alien.Behaviour != AlienBv.BvNone)
         {
             throw new Exception($"bad behaviour in [{alien.Name}] = [{alien.Behaviour}]");
         }
 
         alien.Interests = new List<ItemInterest>();
-        if(alien.Behaviour != Alien.BvDefault)
+        if (alien.Behaviour != AlienBv.BvDefault)
         {
             return;
         }
@@ -125,10 +138,13 @@ public class AlienDataEditor : UnityEditor.Editor
             }
 
             var cost = int.Parse(s[1].Trim());
-            alien.Interests.Add(new ItemInterest {
+            alien.Interests.Add(new ItemInterest
+            {
                 ItemID = itemID,
                 Interest = cost,
             });
+            //alien.InterestItemID = itemID;
+            //alien.InterestCost = cost;
         }
     }
 

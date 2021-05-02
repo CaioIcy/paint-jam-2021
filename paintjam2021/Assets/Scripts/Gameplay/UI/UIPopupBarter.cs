@@ -72,6 +72,7 @@ public class UIPopupBarter : MonoBehaviour
 
     public void Show(int value)
     {
+        UIPopupItem.CanInteract = false;
         Debug.Log($"show with value {value}");
         value = Mathf.Min(value, 9999);
         var digits = new int[4];
@@ -120,6 +121,7 @@ public class UIPopupBarter : MonoBehaviour
         UpdateLabels();
 
         gameObject.SetActive(false);
+        UIPopupItem.CanInteract = true;
     }
 
 }

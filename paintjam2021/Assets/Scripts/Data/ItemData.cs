@@ -67,6 +67,7 @@ public class ItemDataEditor : UnityEditor.Editor
                 }
                 SetItemInfo(it, itemSpr, ret);
             }
+            UnityEditor.EditorUtility.SetDirty(t);
         }
     }
 

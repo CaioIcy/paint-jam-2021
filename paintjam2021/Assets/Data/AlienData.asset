@@ -23,27 +23,27 @@ MonoBehaviour:
     - I have vowed to always stay on character, for life is my stage. I AM a human.
       I care about... things humans care about.
     Interests:
-    - ItemID: Best Poster
+    - ItemID: item_Best Poster_alpha
       Interest: 1000
-    - ItemID: Super Killerman 2000 Deluxe 3
+    - ItemID: item_Super Killerman 2000 Deluxe 3_alpha
       Interest: 800
-    - ItemID: MP3 Player
+    - ItemID: item_MP3 Player_alpha
       Interest: 800
-    - ItemID: Nobel Prize
+    - ItemID: item_Nobel Prize_alpha
       Interest: 500
-    - ItemID: Fake Flakes
+    - ItemID: item_Fake Flakes_alpha
       Interest: 500
-    - ItemID: Potato Chip
+    - ItemID: item_Potato Chip_alpha
       Interest: 500
-    - ItemID: Kugo Action Figure
+    - ItemID: item_Kugo Action Figure_alpha
       Interest: 500
-    - ItemID: Rubber Chicken
+    - ItemID: item_Rubber Chicken_alpha
       Interest: 500
-    - ItemID: Brut Vodka
+    - ItemID: item_Brut Vodka_alpha
       Interest: 200
-    - ItemID: Ping Pong Paddle
+    - ItemID: item_Ping Pong Paddle_alpha
       Interest: 200
-    - ItemID: Canned Pickles
+    - ItemID: item_Canned Pickles_alpha
       Interest: 200
   - ID: alien_Caca_alpha
     Name: Caca
@@ -52,21 +52,21 @@ MonoBehaviour:
     Messages:
     - Me look two hand weapon. Me go battle. Hate low radiation beings.
     Interests:
-    - ItemID: Guitar
+    - ItemID: item_Guitar_alpha
       Interest: 1000
-    - ItemID: Umbrella
+    - ItemID: item_Umbrella_alpha
       Interest: 800
-    - ItemID: Telescope
+    - ItemID: item_Telescope_alpha
       Interest: 800
-    - ItemID: Saw
+    - ItemID: item_Saw_alpha
       Interest: 800
-    - ItemID: Mike Johnson_s Killer
+    - ItemID: item_Mike Johnson_s Killer_alpha
       Interest: 500
-    - ItemID: Pliers
+    - ItemID: item_Pliers_alpha
       Interest: 200
-    - ItemID: Paper Clip
+    - ItemID: item_Paper Clip_alpha
       Interest: 200
-    - ItemID: Spatula
+    - ItemID: item_Spatula_alpha
       Interest: 200
   - ID: alien_Cleber_alpha
     Name: Cleber
@@ -82,13 +82,13 @@ MonoBehaviour:
     Messages:
     - Shiitake, shimeji. I need something to protect my shrooms from vultures.
     Interests:
-    - ItemID: Blender
+    - ItemID: item_Blender_alpha
       Interest: 1000
-    - ItemID: War Hat
+    - ItemID: item_War Hat_alpha
       Interest: 800
-    - ItemID: Banana Peel
+    - ItemID: item_Banana Peel_alpha
       Interest: 500
-    - ItemID: Canned Pickles
+    - ItemID: item_Canned Pickles_alpha
       Interest: 200
   - ID: alien_Fetus_alpha
     Name: Fetus
@@ -98,15 +98,15 @@ MonoBehaviour:
     - I'm Fetus! I'm 5, and my favorite things to do are suckle, doodle, cry and
       poop!
     Interests:
-    - ItemID: Battery
+    - ItemID: item_Battery_alpha
       Interest: 1000
-    - ItemID: Marge Rina
+    - ItemID: item_Marge Rina_alpha
       Interest: 800
-    - ItemID: Pen
+    - ItemID: item_Pen_alpha
       Interest: 800
-    - ItemID: Pacifier
+    - ItemID: item_Pacifier_alpha
       Interest: 800
-    - ItemID: Shoe
+    - ItemID: item_Shoe_alpha
       Interest: 800
   - ID: alien_Figo_alpha
     Name: Figo
@@ -116,11 +116,11 @@ MonoBehaviour:
     - Fires... I really like my fires. I want to touch them. Protect them. Burn a
       house down.
     Interests:
-    - ItemID: Flip Flop
+    - ItemID: item_Flip Flop_alpha
       Interest: 1000
-    - ItemID: Banana Peel
+    - ItemID: item_Banana Peel_alpha
       Interest: 1000
-    - ItemID: Clay Filter
+    - ItemID: item_Clay Filter_alpha
       Interest: 1000
   - ID: alien_Gleber_alpha
     Name: Gleber
@@ -129,23 +129,23 @@ MonoBehaviour:
     Messages:
     - Eating is art. Humans eat beautifully...
     Interests:
-    - ItemID: Queue-Tip
+    - ItemID: item_Queue-Tip_alpha
       Interest: 1000
-    - ItemID: Hair Dryer
+    - ItemID: item_Hair Dryer_alpha
       Interest: 1000
-    - ItemID: Speaker
+    - ItemID: item_Speaker_alpha
       Interest: 1000
-    - ItemID: Canned Pickles
+    - ItemID: item_Canned Pickles_alpha
       Interest: 800
-    - ItemID: Fake Flakes
+    - ItemID: item_Fake Flakes_alpha
       Interest: 800
-    - ItemID: Battery
+    - ItemID: item_Battery_alpha
       Interest: 500
-    - ItemID: Potato Chip
+    - ItemID: item_Potato Chip_alpha
       Interest: 200
-    - ItemID: Spatula
+    - ItemID: item_Spatula_alpha
       Interest: 200
-    - ItemID: Brut Vodka
+    - ItemID: item_Brut Vodka_alpha
       Interest: 200
   - ID: alien_Hahohahohu_alpha
     Name: Hahohahohu
@@ -154,23 +154,23 @@ MonoBehaviour:
     Messages:
     - Me hungry. Favorite food guard rail. What on menu?
     Interests:
-    - ItemID: Saw
+    - ItemID: item_Saw_alpha
       Interest: 1000
-    - ItemID: Iron
+    - ItemID: item_Iron_alpha
       Interest: 800
-    - ItemID: Nobel Prize
+    - ItemID: item_Nobel Prize_alpha
       Interest: 500
-    - ItemID: Battery
+    - ItemID: item_Battery_alpha
       Interest: 500
-    - ItemID: Canned Pickles
+    - ItemID: item_Canned Pickles_alpha
       Interest: 500
-    - ItemID: Blender
+    - ItemID: item_Blender_alpha
       Interest: 500
-    - ItemID: Speaker
+    - ItemID: item_Speaker_alpha
       Interest: 500
-    - ItemID: Imps Keychain
+    - ItemID: item_Imps Keychain_alpha
       Interest: 200
-    - ItemID: Pliers
+    - ItemID: item_Pliers_alpha
       Interest: 200
   - ID: alien_Helolololololo_alpha
     Name: Helolololololo
@@ -179,13 +179,13 @@ MonoBehaviour:
     Messages:
     - Me want get stronger. Compensate tiny brain. Help with?
     Interests:
-    - ItemID: Alexa
+    - ItemID: item_Alexa_alpha
       Interest: 1000
-    - ItemID: Bike Seat
+    - ItemID: item_Bike Seat_alpha
       Interest: 800
-    - ItemID: Guitar
+    - ItemID: item_Guitar_alpha
       Interest: 500
-    - ItemID: Saw
+    - ItemID: item_Saw_alpha
       Interest: 200
   - ID: alien_Jena_alpha
     Name: Jena
@@ -194,9 +194,9 @@ MonoBehaviour:
     Messages:
     - Need liquid... Feed Jena... Jena absorbs anything. P-p-p-please...
     Interests:
-    - ItemID: Xabasco Pepper
+    - ItemID: item_Xabasco Pepper_alpha
       Interest: 1000
-    - ItemID: Brut Vodka
+    - ItemID: item_Brut Vodka_alpha
       Interest: 1000
   - ID: alien_Joselit_alpha
     Name: Joselit
@@ -205,15 +205,15 @@ MonoBehaviour:
     Messages:
     - I love me some s-s-sssportss. If only I had handsssss like humansssss...
     Interests:
-    - ItemID: Telescope
+    - ItemID: item_Telescope_alpha
       Interest: 1000
-    - ItemID: War Hat
+    - ItemID: item_War Hat_alpha
       Interest: 1000
-    - ItemID: Shoe
+    - ItemID: item_Shoe_alpha
       Interest: 500
-    - ItemID: Ping Pong Paddle
+    - ItemID: item_Ping Pong Paddle_alpha
       Interest: 500
-    - ItemID: Bike Seat
+    - ItemID: item_Bike Seat_alpha
       Interest: 200
   - ID: alien_Juao_alpha
     Name: Juao
@@ -222,9 +222,9 @@ MonoBehaviour:
     Messages:
     - I'm so itchy... These little buggers are annoying...
     Interests:
-    - ItemID: Pliers
+    - ItemID: item_Pliers_alpha
       Interest: 1000
-    - ItemID: Paper Clip
+    - ItemID: item_Paper Clip_alpha
       Interest: 500
   - ID: alien_Jubirubis_alpha
     Name: Jubirubis
@@ -233,15 +233,15 @@ MonoBehaviour:
     Messages:
     - P-praise be to all gods, su-supernatural entities and items! I c-curse non-believers!
     Interests:
-    - ItemID: Rubber Chicken
+    - ItemID: item_Rubber Chicken_alpha
       Interest: 1000
-    - ItemID: GameToy
+    - ItemID: item_GameToy_alpha
       Interest: 1000
-    - ItemID: Nobel Prize
+    - ItemID: item_Nobel Prize_alpha
       Interest: 200
-    - ItemID: Kugo Action Figure
+    - ItemID: item_Kugo Action Figure_alpha
       Interest: 200
-    - ItemID: Ping Pong Paddle
+    - ItemID: item_Ping Pong Paddle_alpha
       Interest: 200
   - ID: alien_Lamper_alpha
     Name: Lamper
@@ -251,31 +251,31 @@ MonoBehaviour:
     - Humans were right. WAR was truly the greatest pleasure! ... Boy how I love
       imagining the destruction that took place way before I was born.
     Interests:
-    - ItemID: Kugo Action Figure
+    - ItemID: item_Kugo Action Figure_alpha
       Interest: 1000
-    - ItemID: Mike Johnson_s Killer
+    - ItemID: item_Mike Johnson_s Killer_alpha
       Interest: 800
-    - ItemID: Pliers
+    - ItemID: item_Pliers_alpha
       Interest: 500
-    - ItemID: Guitar
+    - ItemID: item_Guitar_alpha
       Interest: 500
-    - ItemID: Paper Clip
+    - ItemID: item_Paper Clip_alpha
       Interest: 500
-    - ItemID: Lesgo
+    - ItemID: item_Lesgo_alpha
       Interest: 500
-    - ItemID: War Hat
+    - ItemID: item_War Hat_alpha
       Interest: 200
-    - ItemID: Umbrella
+    - ItemID: item_Umbrella_alpha
       Interest: 200
-    - ItemID: Arcade Stick
+    - ItemID: item_Arcade Stick_alpha
       Interest: 200
-    - ItemID: Iron
+    - ItemID: item_Iron_alpha
       Interest: 200
-    - ItemID: Saw
+    - ItemID: item_Saw_alpha
       Interest: 200
-    - ItemID: Telescope
+    - ItemID: item_Telescope_alpha
       Interest: 200
-    - ItemID: Spatula
+    - ItemID: item_Spatula_alpha
       Interest: 200
   - ID: alien_Lata_alpha
     Name: Lata
@@ -284,15 +284,15 @@ MonoBehaviour:
     Messages:
     - I need a new home. Where's my mommy?
     Interests:
-    - ItemID: Canned Pickles
+    - ItemID: item_Canned Pickles_alpha
       Interest: 1000
-    - ItemID: Battery
+    - ItemID: item_Battery_alpha
       Interest: 800
-    - ItemID: Marge Rina
+    - ItemID: item_Marge Rina_alpha
       Interest: 500
-    - ItemID: MP3 Player
+    - ItemID: item_MP3 Player_alpha
       Interest: 200
-    - ItemID: Fake Flakes
+    - ItemID: item_Fake Flakes_alpha
       Interest: 200
   - ID: alien_Lilulelo _ Afafa_alpha
     Name: Lilulelo _ Afafa
@@ -302,27 +302,27 @@ MonoBehaviour:
     - We just married. Want beautiful fashion. Want household items for new home.
       We throw party!
     Interests:
-    - ItemID: Hair Dryer
+    - ItemID: item_Hair Dryer_alpha
       Interest: 1000
-    - ItemID: War Hat
+    - ItemID: item_War Hat_alpha
       Interest: 800
-    - ItemID: Speaker
+    - ItemID: item_Speaker_alpha
       Interest: 500
-    - ItemID: Queue-Tip
+    - ItemID: item_Queue-Tip_alpha
       Interest: 500
-    - ItemID: Matrioshka Dolls
+    - ItemID: item_Matrioshka Dolls_alpha
       Interest: 500
-    - ItemID: Banana Peel
+    - ItemID: item_Banana Peel_alpha
       Interest: 500
-    - ItemID: Blender
+    - ItemID: item_Blender_alpha
       Interest: 500
-    - ItemID: Umbrella
+    - ItemID: item_Umbrella_alpha
       Interest: 200
-    - ItemID: Flip Flop
+    - ItemID: item_Flip Flop_alpha
       Interest: 200
-    - ItemID: Imps Keychain
+    - ItemID: item_Imps Keychain_alpha
       Interest: 200
-    - ItemID: Brut Vodka
+    - ItemID: item_Brut Vodka_alpha
       Interest: 200
   - ID: alien_Memanomeno_alpha
     Name: Memanomeno
@@ -332,15 +332,15 @@ MonoBehaviour:
     - Me smartest ever. Radiation supercharge brain. Egg come before chicken. Need
       most advanced object.
     Interests:
-    - ItemID: Remote
+    - ItemID: item_Remote_alpha
       Interest: 1000
-    - ItemID: Iron
+    - ItemID: item_Iron_alpha
       Interest: 1000
-    - ItemID: Arcade Stick
+    - ItemID: item_Arcade Stick_alpha
       Interest: 500
-    - ItemID: GameToy
+    - ItemID: item_GameToy_alpha
       Interest: 500
-    - ItemID: Clay Filter
+    - ItemID: item_Clay Filter_alpha
       Interest: 200
   - ID: alien_Milton_alpha
     Name: Milton
@@ -350,17 +350,17 @@ MonoBehaviour:
     - The greatest gift bestowed by our creators, was the hablity to create itself.
       To build, innovate and challenge is to give birth. - Me
     Interests:
-    - ItemID: Clay Filter
+    - ItemID: item_Clay Filter_alpha
       Interest: 1000
-    - ItemID: Potato Chip
+    - ItemID: item_Potato Chip_alpha
       Interest: 800
-    - ItemID: Best Poster
+    - ItemID: item_Best Poster_alpha
       Interest: 500
-    - ItemID: Super Killerman 2000 Deluxe 3
+    - ItemID: item_Super Killerman 2000 Deluxe 3_alpha
       Interest: 500
-    - ItemID: Canned Pickles
+    - ItemID: item_Canned Pickles_alpha
       Interest: 500
-    - ItemID: Pen
+    - ItemID: item_Pen_alpha
       Interest: 200
   - ID: alien_Nulapinomelisoferiponerosefilo_alpha
     Name: Nulapinomelisoferiponerosefilo
@@ -369,21 +369,21 @@ MonoBehaviour:
     Messages:
     - Please... Need friend... Please give friend... Anyone...
     Interests:
-    - ItemID: Super Killerman 2000 Deluxe 3
+    - ItemID: item_Super Killerman 2000 Deluxe 3_alpha
       Interest: 1000
-    - ItemID: GameToy
+    - ItemID: item_GameToy_alpha
       Interest: 1000
-    - ItemID: Kugo Action Figure
+    - ItemID: item_Kugo Action Figure_alpha
       Interest: 800
-    - ItemID: Marge Rina
+    - ItemID: item_Marge Rina_alpha
       Interest: 500
-    - ItemID: Alexa
+    - ItemID: item_Alexa_alpha
       Interest: 500
-    - ItemID: Best Poster
+    - ItemID: item_Best Poster_alpha
       Interest: 500
-    - ItemID: Imps Keychain
+    - ItemID: item_Imps Keychain_alpha
       Interest: 500
-    - ItemID: Fake Flakes
+    - ItemID: item_Fake Flakes_alpha
       Interest: 200
   - ID: alien_Papaparo_alpha
     Name: Papaparo
@@ -392,21 +392,21 @@ MonoBehaviour:
     Messages:
     - Munch lifestyle. Give soft munch. Chew least 50 year before spit.
     Interests:
-    - ItemID: Bike Seat
+    - ItemID: item_Bike Seat_alpha
       Interest: 1000
-    - ItemID: Rubber Chicken
+    - ItemID: item_Rubber Chicken_alpha
       Interest: 800
-    - ItemID: Shoe
+    - ItemID: item_Shoe_alpha
       Interest: 500
-    - ItemID: Pacifier
+    - ItemID: item_Pacifier_alpha
       Interest: 500
-    - ItemID: Best Poster
+    - ItemID: item_Best Poster_alpha
       Interest: 200
-    - ItemID: Queue-Tip
+    - ItemID: item_Queue-Tip_alpha
       Interest: 200
-    - ItemID: Banana Peel
+    - ItemID: item_Banana Peel_alpha
       Interest: 200
-    - ItemID: Battery
+    - ItemID: item_Battery_alpha
       Interest: 200
   - ID: alien_Papero_alpha
     Name: Papero
@@ -416,17 +416,17 @@ MonoBehaviour:
     - Jus' cuz' I look like a kid they won't listen to me. Betcha ass they will obey
       me! I'm cool and strong...
     Interests:
-    - ItemID: Nobel Prize
+    - ItemID: item_Nobel Prize_alpha
       Interest: 1000
-    - ItemID: Recorder
+    - ItemID: item_Recorder_alpha
       Interest: 500
-    - ItemID: Spatula
+    - ItemID: item_Spatula_alpha
       Interest: 500
-    - ItemID: Alexa
+    - ItemID: item_Alexa_alpha
       Interest: 500
-    - ItemID: Remote
+    - ItemID: item_Remote_alpha
       Interest: 200
-    - ItemID: Arcade Stick
+    - ItemID: item_Arcade Stick_alpha
       Interest: 200
   - ID: alien_Phono_alpha
     Name: Phono
@@ -436,7 +436,7 @@ MonoBehaviour:
     - I'm just an uninteresting guy. I want your least interesting thing, and nothing
       else will do.
     Interests:
-    - ItemID: Marge Rina
+    - ItemID: item_Marge Rina_alpha
       Interest: 1000
   - ID: alien_Pu_alpha
     Name: Pu
@@ -452,17 +452,17 @@ MonoBehaviour:
     Messages:
     - I am Pop Art & Culture Researcher Roberto. What have you got in store, friend?
     Interests:
-    - ItemID: Super Killerman 2000 Deluxe 3
+    - ItemID: item_Super Killerman 2000 Deluxe 3_alpha
       Interest: 1000
-    - ItemID: Best Poster
+    - ItemID: item_Best Poster_alpha
       Interest: 1000
-    - ItemID: Canned Pickles
+    - ItemID: item_Canned Pickles_alpha
       Interest: 800
-    - ItemID: MP3 Player
+    - ItemID: item_MP3 Player_alpha
       Interest: 800
-    - ItemID: Potato Chip
+    - ItemID: item_Potato Chip_alpha
       Interest: 500
-    - ItemID: Fake Flakes
+    - ItemID: item_Fake Flakes_alpha
       Interest: 200
   - ID: alien_Romario Jr_alpha
     Name: Romario Jr
@@ -472,11 +472,11 @@ MonoBehaviour:
     - I can't sleep, broooo... Everyone's screamin'. I need something to quiet down,
       bro.
     Interests:
-    - ItemID: Imps Keychain
+    - ItemID: item_Imps Keychain_alpha
       Interest: 1000
-    - ItemID: Recorder
+    - ItemID: item_Recorder_alpha
       Interest: 1000
-    - ItemID: Queue-Tip
+    - ItemID: item_Queue-Tip_alpha
       Interest: 200
   - ID: alien_Sk8ro_alpha
     Name: Sk8ro
@@ -486,15 +486,15 @@ MonoBehaviour:
     - Not cool bro, gotta cool off. Got something to help me chill? I'm trynna hide
       from the sun you see, not really in the mood for exploding.
     Interests:
-    - ItemID: Ping Pong Paddle
+    - ItemID: item_Ping Pong Paddle_alpha
       Interest: 1000
-    - ItemID: Xabasco Pepper
+    - ItemID: item_Xabasco Pepper_alpha
       Interest: 800
-    - ItemID: Recorder
+    - ItemID: item_Recorder_alpha
       Interest: 800
-    - ItemID: Umbrella
+    - ItemID: item_Umbrella_alpha
       Interest: 500
-    - ItemID: MP3 Player
+    - ItemID: item_MP3 Player_alpha
       Interest: 200
   - ID: alien_Sususisi_alpha
     Name: Sususisi
@@ -503,19 +503,19 @@ MonoBehaviour:
     Messages:
     - Oooh... Please... Hehehe... Give me something... Hot... Hehehe...
     Interests:
-    - ItemID: Pacifier
+    - ItemID: item_Pacifier_alpha
       Interest: 1000
-    - ItemID: Xabasco Pepper
+    - ItemID: item_Xabasco Pepper_alpha
       Interest: 1000
-    - ItemID: Mike Johnson_s Killer
+    - ItemID: item_Mike Johnson_s Killer_alpha
       Interest: 500
-    - ItemID: Iron
+    - ItemID: item_Iron_alpha
       Interest: 500
-    - ItemID: Hair Dryer
+    - ItemID: item_Hair Dryer_alpha
       Interest: 500
-    - ItemID: Spatula
+    - ItemID: item_Spatula_alpha
       Interest: 500
-    - ItemID: Alexa
+    - ItemID: item_Alexa_alpha
       Interest: 200
   - ID: alien_Teevolini_alpha
     Name: Teevolini
@@ -525,15 +525,15 @@ MonoBehaviour:
     - HYAA! This spaceman here's a total control freak, seven days a week. I need
       things right at the palm of my hands, my way or the highway!
     Interests:
-    - ItemID: Arcade Stick
+    - ItemID: item_Arcade Stick_alpha
       Interest: 1000
-    - ItemID: Nobel Prize
+    - ItemID: item_Nobel Prize_alpha
       Interest: 800
-    - ItemID: Remote
+    - ItemID: item_Remote_alpha
       Interest: 500
-    - ItemID: Pen
+    - ItemID: item_Pen_alpha
       Interest: 500
-    - ItemID: Iron
+    - ItemID: item_Iron_alpha
       Interest: 200
   - ID: alien_Twotu_alpha
     Name: Twotu
@@ -543,19 +543,19 @@ MonoBehaviour:
     - We wishes for most destructives weapons, we wishes for inspirations. Two of
       us killing lots for funs!
     Interests:
-    - ItemID: Mike Johnson_s Killer
+    - ItemID: item_Mike Johnson_s Killer_alpha
       Interest: 1000
-    - ItemID: Paper Clip
+    - ItemID: item_Paper Clip_alpha
       Interest: 800
-    - ItemID: Pliers
+    - ItemID: item_Pliers_alpha
       Interest: 500
-    - ItemID: Saw
+    - ItemID: item_Saw_alpha
       Interest: 500
-    - ItemID: Guitar
+    - ItemID: item_Guitar_alpha
       Interest: 500
-    - ItemID: Telescope
+    - ItemID: item_Telescope_alpha
       Interest: 500
-    - ItemID: Umbrella
+    - ItemID: item_Umbrella_alpha
       Interest: 200
   - ID: alien_Wapuwopu_alpha
     Name: Wapuwopu
@@ -564,13 +564,13 @@ MonoBehaviour:
     Messages:
     - '*beep* Security important. Need home defense. *beep*'
     Interests:
-    - ItemID: Lesgo
+    - ItemID: item_Lesgo_alpha
       Interest: 1000
-    - ItemID: Matrioshka Dolls
+    - ItemID: item_Matrioshka Dolls_alpha
       Interest: 800
-    - ItemID: Banana Peel
+    - ItemID: item_Banana Peel_alpha
       Interest: 500
-    - ItemID: Umbrella
+    - ItemID: item_Umbrella_alpha
       Interest: 200
   - ID: alien_Xupilin_alpha
     Name: Xupilin
@@ -579,13 +579,13 @@ MonoBehaviour:
     Messages:
     - I'm so tired of taking care of my children. Got any bad ideas?
     Interests:
-    - ItemID: Spatula
+    - ItemID: item_Spatula_alpha
       Interest: 1000
-    - ItemID: Super Killerman 2000 Deluxe 3
+    - ItemID: item_Super Killerman 2000 Deluxe 3_alpha
       Interest: 800
-    - ItemID: Battery
+    - ItemID: item_Battery_alpha
       Interest: 500
-    - ItemID: MP3 Player
+    - ItemID: item_MP3 Player_alpha
       Interest: 500
-    - ItemID: Marge Rina
+    - ItemID: item_Marge Rina_alpha
       Interest: 200

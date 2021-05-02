@@ -48,8 +48,8 @@ public class UICutscene : MonoBehaviour
         }
         
 
-        Debug.Log(CutsceneImage.rectTransform.sizeDelta.x);
-        Debug.Log(Screen.width);
+        //Debug.Log(CutsceneImage.rectTransform.sizeDelta.x);
+        //Debug.Log(Screen.width);
     }
 
     private void Update()

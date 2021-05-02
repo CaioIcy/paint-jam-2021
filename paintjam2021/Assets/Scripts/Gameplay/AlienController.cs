@@ -160,7 +160,7 @@ public class AlienController : MonoBehaviour
                 interest = itr.Interest;
             }
         }
-        if(_alien.Behaviour == Alien.BvAll)
+        if(_alien.Behaviour == AlienBv.BvAll)
         {
             var rand = new System.Random();
             interest = rand.Next(200, 1000);
@@ -239,7 +239,7 @@ public class AlienController : MonoBehaviour
         var rejected = false;
 
         var msg = "";
-        if(_alien.Behaviour == Alien.BvNone)
+        if(_alien.Behaviour == AlienBv.BvNone)
         {
             Debug.Log($"REJECT offer NONE [{amount}]");
             msg = MsgNo();
